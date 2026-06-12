@@ -31,10 +31,16 @@
 
     <!-- Navbar -->
 <header class="absolute top-0 left-0 w-full z-10">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6 flex justify-center items-center">
-    <nav class="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8 mt-4 sm:mt-6 font-bold text-lg sm:text-2xl text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6 flex flex-col items-start">
+    <a
+      href="index.html"
+      class="text-7xl sm:text-8xl md:text-9xl lg:text-9xl font-extrabold tracking-tight mb-2"
+      style="font-family: 'Montserrat', serif; color: #F6E27A;">
+      FRANKIE
+    </a>
+    <nav class="flex flex-col justify-start items-start gap-1 mt-2 font-bold text-2xl sm:text-3xl text-white">
       <a href="portfolio.html" class="hover:text-gray-900 transition" style="color: #F6E27A;">Portfolio</a>
-      <a href="about.html" class="hover:text-gray-900 transition" style="color: #F6E27A;">About</a>
+      <a href="about.html" class="hover:text-gray-900 transition mt-1" style="color: #F6E27A;">About</a>
     </nav>
   </div>
 </header>
@@ -44,17 +50,13 @@
       class="relative h-screen w-full bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center text-center px-4"
       style="background-image: url('index/cover.jpg');"
     >
-      <a
-        href="index.html"
-        class="text-4xl sm:text-6xl md:text-8xl lg:text-10xl font-extrabold tracking-tight mb-4"
-        style="font-family: 'Montserrat', serif; color: #F6E27A;">
-        FRANKIE
-      </a>
+  <!-- FRANKIE moved to header -->
 
       
       <a
         href="portfolio.html"
-        class="absolute left-1/2 transform -translate-x-1/2 bottom-28 sm:bottom-32 border border-white text-white px-6 py-3 text-xs sm:text-sm rounded-full font-semibold hover:bg-white hover:text-gray-800"
+        class="absolute left-1/2 transform -translate-x-1/2 bottom-28 sm:bottom-32 border px-6 py-3 text-xs sm:text-sm rounded-full font-semibold hover:bg-white hover:text-gray-800"
+        style="color: #F6E27A; border-color: #F6E27A;"
       >
         Explore the Gallery
       </a>
@@ -64,7 +66,7 @@
         <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
           <polyline points="30,35 50,65 70,35"
             fill="none"
-            stroke="white"
+            stroke="#F6E27A"
             stroke-width="8"
             stroke-linecap="round"
             stroke-linejoin="round"
