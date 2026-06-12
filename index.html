@@ -103,35 +103,40 @@
     </a>
   </div>
 
-    <!-- Row 2: Portrait (text) -->
-    <div class="py-6">
-      <h4 class="text-center text-2xl font-bold mb-2">PORTRAITURE</h4>
-      <p class="text-center text-base leading-relaxed text-gray-500" style="font-family: 'Merriweather', serif; font-size: 14px;">
-        Aiming to reflect identity through subtle expression and clean, intentional framing.
-      </p>
-    </div>
+    <!-- Row 2: Portrait text and 3.jpg under 1.jpg -->
+    <div class="grid md:grid-cols-2 gap-10 items-start">
+      <!-- Left column: 3.jpg with 4.jpg to its right in a pink frame -->
+      <div class="flex justify-start mt-8 space-x-6">
+        <!-- 3.jpg -->
+        <div>
+          <a href="portfolio.html#details" class="block w-full h-full focus:outline-none active:scale-95 transition transform duration-150">
+            <img src="index/3.jpg" alt="Detail" class="w-full h-auto max-w-sm object-cover shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
+          </a>
+        </div>
+
+        <!-- 4.jpg in a pink frame matching the padding of 1.jpg -->
+        <div class="bg-[#8F005C] p-8 md:p-10">
+          <a href="portfolio.html#details" class="block w-full h-full focus:outline-none active:scale-95 transition transform duration-150">
+            <img src="index/4.jpg" alt="Detail 4" class="w-full h-auto max-w-sm object-cover shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
+          </a>
+        </div>
+      </div>
 
     <!-- Row 3: Film -->
     <div class="grid md:grid-cols-2 gap-10 items-center">
       <a href="portfolio.html#film" 
          class="block w-full h-full rounded-xl ring-offset-2 focus:outline-none focus:ring-4 focus:ring-blue-400 active:scale-95 transition transform duration-150">
-        <img src="front-end/photos/file/film.jpg" 
+        <img src="index/6.jpg" 
              alt="Film" 
              class="w-full h-full object-cover shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
       </a>
-      <div>
-        <h4 class="text-center text-2xl font-bold mb-2">FILM</h4>
-        <p class="text-center text-base leading-relaxed text-gray-500" style="font-family: 'Merriweather', serif; font-size: 14px;">
-          The work is tactile; loading film, developing by hand, scanning, cutting, archiving. It offers a timeless feel that digital can't replicate.
-        </p>
-      </div>
     </div>
 
   </div>
 </section>
 
     <!-- Responsive Footer -->
-<footer class="text-white py-10 mt-1" style="background-color: #f3abb9; border-top: 12px solid #ffffff; border-left: 10px solid #ffffff; border-right: 10px solid #ffffff; border-bottom: 12px solid #ffffff; box-sizing: border-box;">
+<footer class="text-white py-10 mt-1" style="background-color: #ffffff; border-top: 12px solid #ffffff; border-left: 10px solid #ffffff; border-right: 10px solid #ffffff; border-bottom: 12px solid #ffffff; box-sizing: border-box;">
   <div class="max-w-6xl mx-auto px-6 text-center space-y-4">
     <h2 class="text-2xl text-gray-500 font-bold">LET'S CONNECT</h2>
     <p class="text-sm text-gray-500">Feel free to reach out through any of the platforms below.</p>
