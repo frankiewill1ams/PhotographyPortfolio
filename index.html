@@ -103,52 +103,55 @@
     </a>
   </div>
 
-    <!-- Row 2: Portrait text and 3.jpg under 1.jpg -->
-    <div class="grid md:grid-cols-2 gap-10 items-start">
-      <!-- Left column: 3.jpg with 4.jpg to its right in a pink frame -->
-      <div class="flex justify-start mt-8 space-x-6">
-        <!-- 3.jpg -->
-        <div>
-          <a href="portfolio.html#details" class="block w-full h-full focus:outline-none active:scale-95 transition transform duration-150">
-            <img src="index/3.jpg" alt="Detail" class="w-full h-auto max-w-sm object-cover shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
-          </a>
-        </div>
+    <!-- Row 2: Centered 3.jpg + 4.jpg -->
+<div class="flex justify-center items-center gap-6 mt-8 flex-wrap">
+  
+  <!-- 3.jpg -->
+  <a href="portfolio.html#details" class="block">
+    <img 
+      src="index/3.jpg" 
+      alt="Detail" 
+      class="w-full max-w-sm object-cover shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer"
+    />
+  </a>
 
-        <!-- 4.jpg in a pink frame matching the padding of 1.jpg -->
-        <div class="bg-[#8F005C] p-8 md:p-10">
-          <a href="portfolio.html#details" class="block w-full h-full focus:outline-none active:scale-95 transition transform duration-150">
-            <img src="index/4.jpg" alt="Detail 4" class="w-full h-auto max-w-sm object-cover shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
-          </a>
-        </div>
-      </div>
-
-    <!-- Row 3: Film -->
-    <div class="grid md:grid-cols-2 gap-10 items-center">
-      <a href="portfolio.html#film" 
-         class="block w-full h-full rounded-xl ring-offset-2 focus:outline-none focus:ring-4 focus:ring-blue-400 active:scale-95 transition transform duration-150">
-        <img src="index/6.jpg" 
-             alt="Film" 
-             class="w-full h-full object-cover shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
-      </a>
-    </div>
-
+  <!-- 4.jpg -->
+  <div class="bg-[#a71d76] p-8 md:p-10">
+    <a href="portfolio.html#details" class="block">
+      <img 
+        src="index/4.jpg" 
+        alt="Detail 4" 
+        class="w-full max-w-sm object-cover shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer"
+      />
+    </a>
   </div>
+
+  <!-- 5.jpg (add this if you want it included) -->
+  <a href="portfolio.html#film" class="block">
+    <img 
+      src="index/6.jpg" 
+      alt="Film detail"
+      class="w-full max-w-sm object-cover shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer"
+    />
+  </a>
+
+</div>
 </section>
 
     <!-- Responsive Footer -->
 <footer class="text-white py-10 mt-1" style="background-color: #ffffff; border-top: 12px solid #ffffff; border-left: 10px solid #ffffff; border-right: 10px solid #ffffff; border-bottom: 12px solid #ffffff; box-sizing: border-box;">
   <div class="max-w-6xl mx-auto px-6 text-center space-y-4">
-    <h2 class="text-2xl text-gray-500 font-bold">LET'S CONNECT</h2>
-    <p class="text-sm text-gray-500">Feel free to reach out through any of the platforms below.</p>
+    <h2 class="text-2xl font-extrabold" style = "color: #a71d76">LET'S CONNECT</h2>
+    <p class="text-sm" style = "color: #a71d76">Feel free to reach out through any of the platforms below.</p>
 
     <!-- Links: Stack on mobile, row on desktop -->
     <div class="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-6 text-lg">
-      <a href="mailto:frwilliams@colgate.edu" class="hover:text-gray-800  text-gray-500 transition font-bold">frwilliams@colgate.edu</a>
-      <a href="https://www.instagram.com/filmbyfrank1e?igsh=eGtnY3dkdWx5a28z&utm_source=qr" target="_blank" class="hover:text-gray-800 text-gray-500 transition font-bold">Instagram</a>
-      <a href="https://www.linkedin.com/in/francesca-williams-/" target="_blank" class="hover:text-gray-800 text-gray-500 transition font-bold">LinkedIn</a>
+      <a href="mailto:frwilliams@colgate.edu" class="hover:text-gray-800  text-gray-500 transition font-bold" style = "color: #a71d76">frwilliams@colgate.edu</a>
+      <a href="https://www.instagram.com/filmbyfrank1e?igsh=eGtnY3dkdWx5a28z&utm_source=qr" target="_blank" class="hover:text-gray-800 text-gray-500 transition font-bold" style = "color: #a71d76">Instagram</a>
+      <a href="https://www.linkedin.com/in/francesca-williams-/" target="_blank" class="hover:text-gray-800 text-gray-500 transition font-bold" style = "color: #a71d76">LinkedIn</a>
     </div>
 
-    <p class="text-sm text-gray-500 mt-6">&copy; 2025 Frankie Williams. All rights reserved.</p>
+    <p class="text-sm text-gray-500 mt-6" style = "color: #a71d76">&copy; 2025 Frankie Williams. All rights reserved.</p>
   </div>
 </footer>
 
